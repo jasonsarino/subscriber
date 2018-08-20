@@ -1,0 +1,78 @@
+body{
+	background: #EEE;
+	font-family: Arial;
+}
+.container{
+	width: 360px;
+	border:1px solid #FFF;
+	background: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	padding: 40px;
+	-webkit-box-shadow:0 0 80px #CCC; 
+	-moz-box-shadow: 0 0 80px #CCC; 
+	box-shadow:0 0 80px #CCC;
+}
+
+.input-icon { position: relative; }
+.input-icon input { text-indent: 30px;}
+.input-icon .fa-name { 
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 15px;
+}
+
+.header{
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.form-input{
+	display: block;
+	margin-top: 20px;
+	width: 100%;
+	font-size: 14px;
+	height: 50px;
+	border-radius: 10px;
+	border:1px solid #ededed;
+	background: #ededed;
+}
+
+#btn-subscriber{
+	background: url("../images/subscribe_btn.png") no-repeat scroll 0 0 transparent;
+	  color: #000000;
+	  cursor: pointer;
+	  font-weight: bold;
+	  height: 52px;
+	  width: 150px;
+	  border: none;
+	  margin-top: 20px;
+}
+
+.alert {
+	border-radius: .25rem;
+	border: 1px solid transparent;
+	margin-bottom: 1rem;
+	padding: .75rem 1.25rem;
+}
+.alert-success{
+	background-color: #dff0d8;
+	border-color: #d0e9c6;
+	color: #3c763d;
+}
+
+.alert-danger{
+	background-color: #f2dede;
+	border-color: #ebcccc;
+	color: #a94442;
+}
+
+.alert-info{
+	background-color: #d9edf7;
+	border-color: #bcdff1;
+	color: #31708f;
+}

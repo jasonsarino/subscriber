@@ -20,6 +20,9 @@
 	</div>
 	<input type="submit" id="btn-subscriber" value="">
 	</form>
+    <div class="form-footer">
+        <a href="login.php">Login</a> | <a href="signup.php">Sign Up</a>
+    </div>
 </div>
 
 <script type="text/javascript" src="js/custom.js"></script>
